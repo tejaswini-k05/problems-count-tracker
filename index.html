@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Problems/Goals Tracker</title>
+</head>
+
+<body>
+    <div class="card">
+        <h2 id="goal">Goal of the Day?!     <span id="solved1Button"></span></h1><br>
+            <div class="count">
+                <input type="number" class="count-digit" placeholder="0" min="0" max="9" maxlength="1" autofocus>
+                <input type="number" class="count-digit" placeholder="0" min="1" max="9" maxlength="1"
+                    >
+            </div>
+            <div class="button-container">
+                <button id="set-button"  onclick="setGoal()">Set <i
+                        class="fa fa-play" disabled></i></button>
+                <button id="reset-button" onclick="reset()" diasbled>Reset <i
+                        class="fa fa-refresh"></i></button>
+            </div>  
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

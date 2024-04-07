@@ -1,0 +1,15 @@
+{
+    "name": "Solved Problems Tracker",
+    "version": "1.0.0", 
+    "description": "Helps you track solved problems, Set a goal to solve a problem, click on the extension to update and track the problem count",
+    "manifest_version": 3,
+    "author": "Tejaswini",
+    "action": {
+        "default_popup": "index.html",
+        "default_title": "Task Reminder"
+    },
+    "permissions": [
+        "tabs",
+        "storage"  
+    ]
+}
